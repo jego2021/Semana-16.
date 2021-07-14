@@ -1,0 +1,16 @@
+Proceso Eje_5
+	Definir  a , b Como Entero
+	Escribir  "Dale un valor a la variable a"
+	Leer  un
+	Escribir  "Dale un valor a la variable b"
+	Leer  b
+	Si  a  =  b  Entonces
+		Escribir  "Los valores de las 2 variables son iguales"
+	FinSi
+	
+			Si  a > b Entonces
+				Escribir  "El numero mayor es:"  a
+				Si No
+					Escribir  "El numero mayor es:"  b
+			Fin  Si
+FinProceso 
